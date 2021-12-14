@@ -1,0 +1,17 @@
+.productContainer {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.product1 {
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.product1 > img {
+    height: 300px;
+    width: 200px;
+}
